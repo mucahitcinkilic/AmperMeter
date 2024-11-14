@@ -1,0 +1,87 @@
+Removed Member From Class: ClassName=CURRENT_OLED Member=C?
+Removed Member From Class: ClassName=CURRENT_OLED Member=R?
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=DS? NewDesignator=DS1
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change Component Designator: OldDesignator=S? NewDesignator=S2
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Added Component: Designator=C11(CAP 0805_2012)
+Add component (AddParameter): Name = "Applications"; Value = "Automotive, Bypass, Decoupling"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "componentlink1description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "componentlink1url"; Value = "https://api.kemet.com/component-edge/download/datasheet/C0805C104M5RACAUTO.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "componentlink2description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "componentlink2url"; Value = "https://www.digikey.com/en/products/detail/kemet/C0805C104M5RACAUTO/5762233"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "lastupdated"; Value = "9.02.2024 20:16:09"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, MLCC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0805C104M5RACAUTO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partid"; Value = "2568"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "price"; Value = "0.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "series"; Value = "SMD Auto X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "0.079" L x 0.049" W (2.00mm x 1.25mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "399-12977-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness (Max)"; Value = "0.035" (0.88mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = "0.1 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Rated"; Value = "50V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=3V3 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=DS1-1
+Added Pin To Net: NetName=3V3 Pin=DS1-2
+Added Pin To Net: NetName=GND Pin=DS1-3
+Added Pin To Net: NetName=PA0 Pin=DS1-7
+Added Pin To Net: NetName=PA1 Pin=DS1-8
+Added Pin To Net: NetName=PA1 Pin=DS1-9
+Added Pin To Net: NetName=GND Pin=DS1-20
+Added Pin To Net: NetName=BS0 Pin=DS1-17
+Added Net: Name=BS0
+Added Pin To Net: NetName=BS1 Pin=DS1-18
+Added Net: Name=BS1
+Added Pin To Net: NetName=BS2 Pin=DS1-19
+Added Net: Name=BS2
+Added Pin To Net: NetName=RES Pin=DS1-16
+Added Net: Name=RES
+Added Pin To Net: NetName=SA0 Pin=DS1-4
+Added Net: Name=SA0
+Added Member To Class: ClassName=POWER_MCU Member=Component C1 1µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C2 10000 pF
+Added Member To Class: ClassName=POWER_MCU Member=Component C3 10000 pF
+Added Member To Class: ClassName=POWER_MCU Member=Component C4 0.1 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C5 4.7 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C6 0.1 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C7 10 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C9 12 pF
+Added Member To Class: ClassName=POWER_MCU Member=Component C10 12 pF
+Added Member To Class: ClassName=CURRENT_OLED Member=Component C11 0.1 µF
+Added Member To Class: ClassName=CURRENT_OLED Member=Component C12 0.1 µF
+Added Member To Class: ClassName=CURRENT_OLED Member=Component R2 10k
+Added Member To Class: ClassName=CURRENT_OLED Member=Component R3 10k
+Added Member To Class: ClassName=CURRENT_OLED Member=Component R4 100 mOhms
+Added Member To Class: ClassName=POWER_MCU Member=Component S1 FSM8JH

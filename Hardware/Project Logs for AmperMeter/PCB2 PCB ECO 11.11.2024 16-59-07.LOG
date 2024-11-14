@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=POWER_MCU Member=R4
+Added Member To Class: ClassName=POWER_MCU Member=Component C8 0.1 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component R1 10k Ohms
+Added Member To Class: ClassName=POWER_MCU Member=Component S2 FSM8JH

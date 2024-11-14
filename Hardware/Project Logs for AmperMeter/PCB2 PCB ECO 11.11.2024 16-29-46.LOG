@@ -1,0 +1,21 @@
+Added Component: Designator=BT(BAT_BH24CSF)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "MPD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BH24CSF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BH24CSF/MPD/view-part/4389082/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=POWER_MCU Member=Component BT BH24CSF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 0.1 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 12 pF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 1µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 10000 pF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 12 pF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 0.1 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 0.1 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 10 µF
+Added Member To Class: ClassName=POWER_MCU Member=Component C? 10000 pF
+Added Member To Class: ClassName=CURRENT_OLED Member=Component R? 10k
+Added Member To Class: ClassName=CURRENT_OLED Member=Component R? 100 mOhms
+Added Member To Class: ClassName=POWER_MCU Member=Component S? FSM8JH
