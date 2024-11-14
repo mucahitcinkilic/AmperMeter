@@ -38,7 +38,7 @@ The STM32 reads the current value from the INA219 and updates the OLED display.
 Important Note: The 330-ohm resistor is used to protect the potentiometer from excessive current. Without this series resistor, the potentiometer could be damaged, as it may not be rated for high current.
 
 Links
-YouTube: 
+YouTube: https://www.youtube.com/watch?v=oZrPufdU3gE&ab_channel=MucahitEmbeddedSystems
 Documentation: Detailed usage and wiring instructions can be found in the repository files.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
